@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BounceBackViewPager">
+        <!--
+        determines the maximum amount of translation along the z-axis during the overscroll.
+        Default is 150.
+        -->
+        <attr name="translation" format="dimension"/>
+        <!-- Duration of animation when user releases the over scroll. Default is 400 ms. -->
+        <attr name="releaseDuration" format="integer"/>
+    </declare-styleable>
+</resources>
